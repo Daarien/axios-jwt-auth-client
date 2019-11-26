@@ -1,0 +1,30 @@
+{
+  "name": "axios-jwt-auth-client",
+  "version": "1.0.0",
+  "description": "Auth test client for node-express-ts-api project.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "axios-mock-adapter": "^1.17.0",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "ava": {
+    "compileEnhancements": false,
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  }
+}
